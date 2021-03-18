@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel'
-import img1 from '../images/01.jpg'
-import img2 from '../images/02.jpg'
-import img3 from '../images/03.jpg'
+import img1 from '../images/banner/01.jpg'
+import img2 from '../images/banner/02.jpg'
+import img3 from '../images/banner/03.jpg'
 
 const Slider = () => {
     return (
@@ -14,8 +14,8 @@ const Slider = () => {
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className='slide-item'>
@@ -26,8 +26,8 @@ const Slider = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className='slide-item'>
@@ -38,8 +38,8 @@ const Slider = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>Third slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             </Carousel>

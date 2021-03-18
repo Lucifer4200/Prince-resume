@@ -1,9 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
-.slide-item {
-  max-height: 800px;
+
+
+
+@media (min-width: 576px) {
+  .slide-item {
+    height: 700px;
+  }
+}
+
+@media (min-width: 768px) {
+  .slide-item {
+    height: 800px;
+  }
 }
 
 .slide-item img {
   height: 100%;
+}
+
+.section-wrapper {
+  padding: 60px 0;
+}
+
+.aboutThumb {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .aboutThumb::after {
+    position: absolute;
+    content: "";
+    right: -40px;
+    bottom: -40px;
+    height: 100%;
+    width: 100%;
+    border: 15px solid #31d181;
+    display: inline-block;
+    z-index: -1;
+  }
 }
